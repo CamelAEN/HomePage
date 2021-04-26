@@ -18,11 +18,12 @@
 			<div class="navbar navbar-expand-sm p-lg-0   navbar-light justify-content-between bg">
 				<!-- 移动端下的下拉按钮 -->
 				<div class="navbar-toggler" data-toggle="collapse" data-target="#nav-collapse"></div>
+				<div id="cd-intro-tagline"></div>
 				<a href="index.html" class="navbar-brand  d-flex flex-column">
 					<img src="./static/images/logo.png" alt="logo">
 				</a>
 				<!-- 折叠目标导航 -->
-				<div id="nav-collapse" class="collapse navbar-collapse flex-column align-items-end ml-100"
+				<div id="nav-collapse" class="collapse navbar-collapse flex-column align-items-end ml-100 cd-secondary-nav"
 					style="margin-top: 12px;">
 					<ul class="navbar-nav nav justify-content-between w-100 bg">
 						<li class="nav-item" data-toggle="collapse" data-target="#nav-collapse">
@@ -69,7 +70,7 @@
 		</div>
 		<div class="section-5"></div>
 		<div class="work">
-			<div class="work-container">
+			<div class="work-container cd-main-content">
 				<div class="div-block-37">
 					<div class="text-block-2">Our technologies bring decentralized identity and open data to life.</div>
 					<div class="div-block-45">
@@ -78,7 +79,7 @@
 						<div class="div-block-48"></div>
 					</div>
 				</div>
-				<div class="div-block-5" id="shejiao">
+				<div class="div-block-5 cd-section" id="shejiao">
 					<!-- 社交 -->
 					<section id="shejiao" class="work1">
 						<div class="work-product-bg _50">
@@ -356,7 +357,7 @@
 							</div>
 						</div>
 					</div>
-					<section id="development" class="work1 idx bottom-margin idx2" style="background-color: #f4faf7;">
+					<section id="development" class="work1 idx bottom-margin idx2 cd-section" style="background-color: #f4faf7;">
 						<div class="div-block-6">
 							<h1 style="font-weight: bold;">Development History</h1>
 							<div class="text-block-10">
@@ -379,7 +380,7 @@
 				</div>
 			</div>
 		</div>
-		<section class="join-us" id="contact">
+		<section class="join-us cd-section" id="contact">
 			<div class="div-block-18">
 				<div class="link-block-16">Contact&nbsp;&nbsp;Us</div>
 				<div class="link-block-3 inliine w-inline-block" style="margin-top: 20px;">
@@ -397,7 +398,7 @@
 				</div>
 				<div class="link-block-3 inliine w-inline-block" style="margin-bottom: 50px;">
 					<div class="div-block-31"><img src="./static/picture/github.svg" loading="lazy" height="17" alt="github" /></div>
-					<div class="text-block-9">https://www.github.com</div>
+					<div class="text-block-9">https://github.com/camelaen</div>
 				</div>
 			</div>
 			</div>
@@ -425,8 +426,8 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://www.github.com/">
-							<img src="./static/images/support/github.png" alt="Github">
+						<a href="https://github.com/camelaen">
+							<img src="./static/images/support/github.png" alt="github">
 						</a>
 					</li>
 				</ul>
@@ -436,6 +437,8 @@
 		<script src="./static/js/popper.min.js"></script>
 		<script src="./static/js/bootstrap.min.js"></script>
 		<script src="./static/js/lobibox.js"></script>
+		<script src="./static/js/modernizr.js"></script>
+		<script src="./static/js/main.js"></script>
 		<script>
 			var url = './index_cn.html';
 			$(".btns").click(function() {
