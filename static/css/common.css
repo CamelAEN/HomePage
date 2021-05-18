@@ -1,0 +1,275 @@
+body {
+	background-color: #000000;
+}
+.button{
+	text-align: center;
+	background-image: url(../img/caitiao.gif);
+	background-position: 50% 50%;
+	opacity: 1;
+	font-weight: 400;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: rgb(204, 204, 204)!important;
+	font-size: 20px;
+	padding: 0;
+	width: 115px;
+	line-height: 50px;
+	text-align: center;
+}
+.navbar-text{
+	padding:0 0 12px 0;
+}
+/* 脚部 */
+.footer{
+	font-size: 2rem;
+	line-height: 30px;
+	padding-top: 6px;
+	background-color: #f5f5f5;
+	color:#333333;
+	margin-bottom: -50px!important;
+}
+.footer .foot_img{
+	text-align: center;
+	margin: 1rem auto;
+}
+.footer .foot_img img{
+	width: 4.6875rem;
+	margin: 0 auto;
+}
+.footer .lines{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.footer .linea{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 1.5rem;
+	color: #999999;
+	font-size: 1rem;
+}
+.footer .foot_line{
+	width: 18.75rem;
+	height: 2px;
+	background-color: #CCCCCC;
+}
+.footer ul{
+	max-width: 320px;
+	margin:0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around!important;
+}
+.footer a{
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.about .text{
+	width: 425px;
+}
+.about .text p{
+	margin: 0;
+	text-indent: 2em;
+	text-align: justify;
+}
+.course h3{
+	color: #bcbaba;
+}
+.course  p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #bcbaba;
+}
+.course{
+	width: 500px;
+	margin:0 auto;
+	text-indent: 2em;
+	text-align: justify;
+}
+@media (min-width:1200px){
+	.navbar-brand{
+		margin-right: 90px;
+		width: 120px;
+	}
+	.about .text h2{
+		margin-top:73px;
+		margin-bottom: 42px;
+	}
+	.title img{
+		width: 507px;
+		margin: 50px 0  30px 0;
+	}
+}
+@media (max-width:1199px) and (min-width:992px) {
+	.navbar-brand>img{
+		width:50px!important;
+	}
+	.about .text h2{
+		margin-top:60px;
+		margin-bottom: 36px;
+	}
+	.course{
+		width: 1000px;
+		margin:0 auto;
+		text-indent: 2em;
+		text-align: justify;
+	}
+}
+@media (max-width:991px) and (min-width:768px) {
+	.navbar-brand>img{
+		width:60px;
+	}
+	.about .text h2{
+		margin-top:40px;
+		margin-bottom: 26px;
+	}
+}
+@media (min-width:768px){
+	.about .row .img{
+		padding:0;
+	}
+	.course{
+		width: 800px;
+		margin:0 auto;
+		text-indent: 2em;
+		text-align: justify;
+	}
+}
+@media (max-width:767px) and (min-width:576px) {
+	.navbar-brand>img{
+		width:60px;
+	}
+	.about .text h2{
+		margin-top:20px;
+		margin-bottom: 16px;
+	}
+	.course{
+		width: 600px;
+		margin:0 auto;
+		text-indent: 2em;
+		text-align: justify;
+	}
+	.footer a{
+		display: block;
+		width: 30px;
+		height: 30px;
+	}
+}
+/* 1200-576 */
+@media (max-width:1199px) and (min-width:576px) {
+	.title img{
+		width: 432px;
+		margin: 43px 0  25px 0;
+	}
+}
+
+@media (min-width:576px) and (max-width:991px) {
+	.navbar-light .navbar-nav .nav-link{
+		color: rgb(204, 204, 204);
+		font-size: 15px;
+		padding: 0;
+		width: 90px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.about .text h2{
+		font-size: 24px;
+	}
+	.about .text p{
+		font-size: 14px;
+		line-height: 24px;
+		color: #bcbaba;
+	}
+}
+.topnav{
+		margin-top: 40px!important;
+	}
+.tops{
+		margin-top: 40px!important;
+	}
+@media (max-width:575px) {
+	.navsize{
+		max-width: 380px!important;
+	}
+	.topnav{
+		margin-top: 100px!important;
+	}
+	.img-position{
+		margin-right: 15px!important;
+	}
+	.top{
+		position: fixed;
+		top: 0px;
+		z-index: 9999;
+		background-color: #000;
+		height: 80px;
+	}
+	.mt-60{
+		margin-top: 60px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		font-size: 14px;
+		color: rgb(204, 204, 204)!important;
+	}
+	 .navbar-light .navbar-nav .nav-link.active{
+		 background-color: rgb(204, 204, 204);
+	 }
+	.bg{
+		background-color: #000!important;;
+	}
+	.navbar-brand{
+		margin-right: 0;
+	}
+	.navbar-brand>img{
+		width:45px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		width:auto;
+		text-align: left;
+		padding: 5px;
+		background-color: #f8f8f8;
+	}
+	.navbar-toggler{
+		padding:0;
+		width:28px;
+		height: 20px;
+		border:none;
+		border-radius: 0;
+		background:repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAYAAADXnxW3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUEwRTMwNzUwODc0MTFFQkFCQ0M5RTJBNEQ3NDIzNDEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUEwRTMwNzYwODc0MTFFQkFCQ0M5RTJBNEQ3NDIzNDEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFQTBFMzA3MzA4NzQxMUVCQUJDQzlFMkE0RDc0MjM0MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFQTBFMzA3NDA4NzQxMUVCQUJDQzlFMkE0RDc0MjM0MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PrQ30oAAAAAkSURBVHjaYk5LS/vPxAAEOAlmY2PjHyBWJ8P///8Z8CsGCDAAZiIHaZQrtLgAAAAASUVORK5CYII=);
+		background-size: 40% 40%;
+	}
+	.about .row .img{
+		text-align: center;
+	}
+	.about .row .img img{
+		width:120px;
+	}
+	.about .text-sm h3{
+		font-size: 14px;
+		margin-top: 20px;
+		color: #bcbaba;
+	}
+	.about .text-sm p{
+		font-size: 12px;
+		color: #bcbaba;
+		line-height: 16px;
+	}
+	.about .title img{
+		max-width: 250px;
+		margin: 25px 0;
+	}
+	.footer a{
+		display: block;
+		width: 25px;
+		height: 25px;
+	}
+}
